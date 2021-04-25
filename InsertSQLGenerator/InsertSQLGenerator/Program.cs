@@ -14,7 +14,7 @@ namespace InsertSQLGenerator
         public const string PROJECT = "PROJECTT";
         public const string WORKSON = "WORKSON";
         public const string EMPLOYEE = "EMPLOYEE";
-        public const string QUOTE = "\"";
+        public const string QUOTE = "\'";
         //foreign keys
         public List<string> emplNo;
         public List<string> deptNo;

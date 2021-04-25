@@ -5,3 +5,10 @@ C:\Users\prestamo\source\repos\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\I
 C:\Users\prestamo\source\repos\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\InsertSQLGenerator.csproj.CoreCompileInputs.cache
 C:\Users\prestamo\source\repos\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\InsertSQLGenerator.exe
 C:\Users\prestamo\source\repos\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\InsertSQLGenerator.pdb
+C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\InsertSQLGenerator\InsertSQLGenerator\bin\Debug\InsertSQLGenerator.exe.config
+C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\InsertSQLGenerator\InsertSQLGenerator\bin\Debug\InsertSQLGenerator.exe
+C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\InsertSQLGenerator\InsertSQLGenerator\bin\Debug\InsertSQLGenerator.pdb
+C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\InsertSQLGenerator.csprojAssemblyReference.cache
+C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\InsertSQLGenerator.csproj.CoreCompileInputs.cache
+C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\InsertSQLGenerator.exe
+C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\InsertSQLGenerator\InsertSQLGenerator\obj\Debug\InsertSQLGenerator.pdb
