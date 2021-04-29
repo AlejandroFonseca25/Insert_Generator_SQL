@@ -45,9 +45,9 @@ namespace InsertSQLGenerator
             QUOTE+"Bygram"+QUOTE, QUOTE + "Tolvex" + QUOTE, QUOTE + "Riesco" + QUOTE, QUOTE + "Wasxion" + QUOTE,
             QUOTE + "CardFill" + QUOTE,QUOTE+"Losdern"+QUOTE,QUOTE+"Opela"+QUOTE,QUOTE+"Tampflex"+QUOTE,QUOTE+"Volcox"+QUOTE,
             QUOTE+"Optomus"+QUOTE };
-        private string[] streets = {"Simon Bolivar", "Avenida 5ta ", "Calle Porvenir", "Avenida 6ta ", 
-            "Avenida Pasoancho ", "Doble calzada Belalcazar ", "Avenida Panamericana", "Carrera 37", "Avenida Valparaiso ",
-            "Shake down road"};
+        private string[] streets = {"Simon Bol", "Ave. 5ta ", "Cll Porvenir", "Ave. 6ta", 
+            "Ave. Pasoancho ", "Belalcazar ", "Ave. Panamericana", "Cra. 37", "Ave. Paraiso",
+            "ShakedownRoad"};
 
        
         public Program(string file)
@@ -63,7 +63,7 @@ namespace InsertSQLGenerator
         static void Main(string[] args)
         {
             //Poner el path completo de la carpeta output del repositorio
-            string output = @"C:\Users\User\Desktop";
+            string output = @"C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\output\INSERTS.sql";
             Program program = new Program(output);
             program.loadData(DEPARTMENT);
             program.loadData(EMPLOYEE);
@@ -199,7 +199,7 @@ namespace InsertSQLGenerator
 
         public string getGender()
         {
-            return genders[r.Next(0, 1)];
+            return genders[r.Next(0, 2)];
         }
         public string getWorkedHours()
         {
