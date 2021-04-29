@@ -62,7 +62,8 @@ namespace InsertSQLGenerator
 
         static void Main(string[] args)
         {
-            string output = @"C:\Users\prestamo\Documents\GitHub\Insert_Generator_SQL\output\INSERTS.sql";
+            //Poner el path completo de la carpeta output del repositorio
+            string output = @"C:\Users\User\Desktop";
             Program program = new Program(output);
             program.loadData(DEPARTMENT);
             program.loadData(EMPLOYEE);
@@ -128,7 +129,15 @@ namespace InsertSQLGenerator
 
         public string getDeptCode()
         {
-            string code = QUOTE + "DP" + count + QUOTE;
+            string code;
+            if (count < 10)
+            {
+                code = QUOTE + "DP" + "0" + count + QUOTE;
+            }
+            else
+            {
+                code = QUOTE + "DP" + count + QUOTE;    
+            }
             deptNo.Add(code);
             count++;
             return code;
