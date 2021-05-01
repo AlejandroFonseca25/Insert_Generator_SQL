@@ -180,7 +180,7 @@ namespace InsertSQLGenerator
             DateTime start = new DateTime(1970, 1, 1);
             int range = (DateTime.Today - start).Days;
             DateTime final = start.AddDays(r.Next(range));
-            return QUOTE + final.ToString("dd-MM-yyyy") + QUOTE;
+            return QUOTE + final.ToString("yyyy-MM-dd") + QUOTE;
         }
 
         public string getDeptName()
@@ -211,7 +211,7 @@ namespace InsertSQLGenerator
             DateTime start = new DateTime(2010, 1, 1);
             int range = (DateTime.Today - start).Days;
             DateTime final = start.AddDays(r.Next(range));
-            return QUOTE + final.ToString("dd-MM-yyyy") + QUOTE;
+            return QUOTE + final.ToString("yyyy-MM-dd") + QUOTE;
         }
     }
 
